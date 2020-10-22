@@ -1,0 +1,9 @@
+body {
+    font-family: 'Segoe UI semibold';
+    margin: 0;
+  }
+
+  #form-message {
+      height: 500px;
+      align-items: center;
+  }
