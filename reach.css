@@ -87,9 +87,10 @@ body {
 #form-message h3 {
     color: rebeccapurple;
     text-transform: capitalize;
-    font-weight: 100px;
+    font-weight: bold;
     font-style: italic;
     transition: .6s;
+    font-family: 'Roboto';
 }
 
 #form-message h3:hover {
