@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+.navbar-brand:hover {
+    transition: .8s;
+    border-color: #ffffff !important;
+}
+
 .card {
     height: 100%;
 }
@@ -26,52 +31,52 @@ body {
 
 .btn-fb {
     border: 1px solid #3b579d;
-     color: #3b579d
+     color: #3b579d;
 }
 
 .btn-fb:hover {
     background: #3b579d;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .btn-twitter {
     border: 1px solid #2caae1;
-    color: #2caae1
+    color: #2caae1;
 }
 
 .btn-twitter:hover {
     background: #2caae1;
-     color: #ffffff
+     color: #ffffff;
 }
 
 .btn-instagram {
-    border: 1px solid #238285;
-     color: #238285
+    border: 1px solid #2d9ca0;
+     color: #2d9ca0;
 }
 
 .btn-instagram:hover {
-    background: #238285;
-     color: #ffffff
+    background: #2d9ca0;
+     color: #ffffff;
 }
 
 .btn-youtube {
     border: 1px solid #e52d27;
-    color: #e52d27
+    color: #e52d27;
 }
 
 .btn-youtube:hover {
     background: #e52d27;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .btn-github {
     border: 1px solid #ea4c89;
-    color: #ea4c89
+    color: #ea4c89;
 }
 
 .btn-github:hover {
     background: #ea4c89;
-     color: #ffffff
+     color: #ffffff;
 }
 
 #form-message {
