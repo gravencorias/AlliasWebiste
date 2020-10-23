@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.badge {
+  font-size: 40px;
+}
+
 .row {
   height: 89vh;
 }
