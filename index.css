@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+.navbar-brand:hover {
+  transition: .8s;
+  border-color: #ffffff !important;
+}
+
 .badge {
   font-size: 40px;
 }
