@@ -95,7 +95,9 @@ body {
   letter-spacing: -.05rem;
 }
   
-  
+ .featurette-image {
+   border-radius: 8px;
+ } 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
