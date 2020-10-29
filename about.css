@@ -1,63 +1,63 @@
 body {
-    font-family: 'Segoe UI semibold';
-    margin: 0;
+  font-family: 'Segoe UI semibold';
+  margin: 0;
 }
 
 .navbar img {
-    width: 40px;
-    height: 40px;
-    /* background-color: wheat;
-    padding: 4px; */
-  }
-  
-  .navbar-brand {
-    letter-spacing: .5px;
-    transition: .2s;
-  }
-  
-  .navbar-brand:hover {
-    letter-spacing: 1px;
-  }
+  width: 40px;
+  height: 40px;
+  /* background-color: wheat;
+  padding: 4px; */
+}
+
+.navbar-brand {
+  letter-spacing: .5px;
+  transition: .2s;
+}
+
+.navbar-brand:hover {
+  letter-spacing: 1px;
+}
 
 .footer {
-    height: 50px;
-    width: 100%;
-    margin: 0;
+  height: 50px;
+  width: 100%;
+  margin: 0;
 }
 
 .footer-container {
-    width: 100%;
-    height: 100%;
-    padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
 }
 
 .floating-button {
-    margin-bottom: 3.5em;
-    margin-right: 1em;
+  margin-bottom: 3.5em;
+  margin-right: 1em;
 }
 
 .card {
-    height: 100%;
+  height: 100%;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 20px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

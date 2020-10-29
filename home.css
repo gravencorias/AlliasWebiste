@@ -36,8 +36,8 @@ body {
   margin: 0;
 }
   
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
   
 /* Carousel base class */
 .carousel {
@@ -63,32 +63,38 @@ body {
   min-width: 100%;
   height: 35rem;
 }
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.marketing h2 {
-  font-weight: 400;
-}
-
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+  text-align: justify;
 }
 
-  /* Featurettes
-  ------------------------- */
+.marketing .abutton {
+  margin-top: 2.5em;
+}
+
+.marketing .lbutton {
+  margin-top: 4em;
+}
+
+/* Featurettes
+------------------------- */
   
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
   
-  /* Thin out the marketing headings */
+/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -99,8 +105,8 @@ body {
   border-radius: 8px;
 } 
 
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
+/* RESPONSIVE CSS
+-------------------------------------------------- */
   
 @media (min-width: 40em) {
 /* Bump up size of carousel content */
