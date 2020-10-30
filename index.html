@@ -43,16 +43,16 @@
         <main>
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-3 col-md-8 col-sm-12">
-                    <form class="main-form" action="">
+                    <!-- <form class="main-form" action="">
                         <div class="btn-toolbar mb-3 justify-content-center">
                             <div class="btn-group">
                                 <span class="badge badge-secondary justify-content-center mr-2">Allia's</span>
                                 <h1 class="form-badge text-center align-self-center pt-2"> Corner</h1>
                             </div>
                         </div>
-                        <!-- <h1 class="form-badge text-center"><span
+                        <h1 class="form-badge text-center"><span
                                 class="badge badge-secondary justify-content-center">Allia's</span> Corner
-                        </h1> -->
+                        </h1>
                         <div class="form-group mt-4">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
@@ -74,6 +74,36 @@
                         </div>
                         <button type="submit" id="btnSubmit"
                             class="btn btn-outline-secondary btn-block mt-3">Submit</button>
+                    </form> -->
+                    <div class="btn-toolbar mb-3 justify-content-center">
+                        <div class="btn-group">
+                            <span class="badge badge-secondary justify-content-center mr-2">Allia's</span>
+                            <h1 class="form-badge text-center align-self-center pt-2"> Corner</h1>
+                        </div>
+                    </div>
+                    <form action="" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter username"
+                                name="email" required>
+                            <div class="valid-feedback">Email is valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"
+                                required>
+                            <div class="valid-feedback">Password is valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember" required>I Agree to all
+                                terms and conditions
+                                <div class="invalid-feedback">Check this checkbox to continue.</div>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>
@@ -89,6 +119,21 @@
             $('#btnSubmit').on('click', function () {
                 alert('submit clicked');
             });
+            'use strict';
+            window.addEventListener('load', function () {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
         });
     </script>
     <!-- Optional JavaScript -->
